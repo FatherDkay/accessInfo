@@ -1,50 +1,52 @@
 .container {
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    line-height: 1.5;
-    background-color: black;
-    color: white;
-  }
-  .leftArea {
-    text-align: center;
-    justify-content:center;
-    width: 210px;
-    align-items: center;
-    align-content: center;
+  height: 80%;
+  display: flex;
+  align-items: flex-start; 
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
 }
-  .middleArea {
-      font-size: large;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      justify-content: flex-start;
-      padding: 40px;
-      width: 40%;
-      align-items: flex-end;
-  }
-  .rightArea {
-        text-align: center;
-      justify-content: flex-start;
-      width: 210px;
-      align-items: flex-end;
-  }
 
-  div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float:left;
-    width: 200px;
-  }
-  
-  div.gallery:hover {
-    border: 2px solid white
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 10px;
-    text-align: center;
-  }
+.about {
+  min-width: 510px;
+  font-size: large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  justify-content: flex-start;
+  width: 50%;
+  line-height: 1.5;
+}
+.galleryArea {
+  min-width: 510px;
+  justify-content: flex-start;
+  background-color: blanchedalmond;
+
+}
+.gal1 {
+  width: 220px;
+}
+
+.gal2 {
+  width: 220px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float:left;
+  width: 200px;
+}
+
+div.gallery:hover {
+  border: 1px solid white
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
