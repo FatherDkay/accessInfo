@@ -4,8 +4,8 @@
   align-items: flex-start; 
   justify-content: center;
   flex-wrap: wrap;
-  background-color: black;
-  color: white;
+  background: ghostwhite;
+  color: black;
 }
 
 .about {
